@@ -1,0 +1,160 @@
+﻿body {
+	background-color: #78bbe0;
+	font-weight: bold;
+	font-size: medium;
+	line-height: 120%;
+	word-wrap:break-word;
+}
+h1 
+{
+    color: #e4332b;
+}
+li
+{
+	margin-bottom:7px;
+}
+a img
+{
+    border-style: none;
+    margin: 5px;
+}
+div.main {
+	background-color: #fbba3b;
+	color: #5f3123;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.headleft {
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div.headright {
+	float: right;
+	text-align: left;
+	color: #5f3123;
+	height: 136px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div.headright table {
+	margin-left: auto;
+	margin-right: 0;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+div.headright th {
+	text-align: left;
+}
+div.slideshow {
+	width: 800px;
+	height: 600px;
+	padding: 0;
+	margin: 0;
+	clear: both;
+	overflow: hidden;
+}
+div.slideshow img {
+	width: 768px;
+	height: 568px;
+	padding: 15px;
+	border: 1px solid #5f3123;
+	background-color: #5f3123;
+}
+div.body {
+}
+div.contents {
+	border-width: medium;
+	border-style: dashed;
+	border-color: #faf7f1;
+	margin: 10px 10px 10px 10px;
+	border-radius: 20px;
+}
+.contentsdate {
+	border-left: solid #faf7f1 5px;
+	color: #faf7f1;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.contentstitle {
+	color: #0087c1;
+	margin-left: 10px;
+	padding-left: 10px;
+    line-height: 120%;
+}
+div.contentsbody {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+div.contentsbody h3 {
+	border-bottom: solid #0087c1 5px;
+	margin-left: 40px;
+	padding-left: 5px;
+	font-size: larger;
+	margin-bottom: 5px;
+	border-collapse: collapse;
+	cursor: pointer;
+	text-indent: 10px;
+	background:		url(../img/plus.gif) no-repeat left center;
+}
+div.contentsbody h3.opened {
+	background:		url(../img/minus.gif) no-repeat left center;
+}
+div.contentsbody h4 {
+	border-left: solid #78bbe0 5px;
+	margin-left: 0px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+div.list {
+	margin-left: 50px;
+}
+div.contentsbody table {
+	margin-left: 10pt;
+	border: solid 3px #78bbe0;
+	border-collapse: collapse
+}
+div.contentsbody thead 
+{
+    border-bottom: solid 3px #78bbe0
+}
+.radioactiveul
+{
+	margin-left: 20px;
+	margin-bottom:20px;
+}
+div.footer {
+	background-color: #fbba3b;
+	border-top: medium solid #78bbe0;
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+div.footer table {
+	margin-left: auto;
+	margin-right: 0;
+}
+div.footer th {
+	text-align: left;
+}
+center {
+    text-align:  center
+}
+div.linebrake {
+	width: 10px;
+	height: 10px;
+	padding: 0;
+	margin: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+/*#fbba3b黄色
+#faf7f1白
+#0087c1濃い青
+#5f3123茶色
+#78bbe0薄い青
+#e4332b赤*/
